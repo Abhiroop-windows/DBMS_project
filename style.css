@@ -1,0 +1,73 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('fcbground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+  }
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    color: #FFD700;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .menu {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .menu button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #FFD700;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .menu button:hover {
+    background-color: #FFA500;
+  }
+  
+  .content {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    width: 70%;
+    color: #000;
+    margin-top: 20px;
+  }
+  
+  footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
